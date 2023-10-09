@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const accordions = Array.from(
-    document.querySelectorAll(".faq__accordion, .delivery__accordion")
+    document.querySelectorAll(
+      ".faq__accordion, .delivery__accordion, .guarantee__accordion"
+    )
   );
 
   console.log("Accordions", accordions);
