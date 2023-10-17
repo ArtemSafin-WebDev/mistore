@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const accordions = Array.from(
     document.querySelectorAll(
-      ".faq__accordion, .delivery__accordion, .guarantee__accordion"
+      ".faq__accordion, .delivery__accordion, .guarantee__accordionч]"
     )
   );
 
