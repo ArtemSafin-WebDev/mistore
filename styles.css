@@ -1920,4 +1920,126 @@
   width: 13px;
   height: 13px;
   fill: white;
+}
+
+.repair__secondary-heading {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  text-wrap: balance;
+  margin-bottom: 32px;
+}
+@media (max-width: 900px) {
+  .repair__secondary-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.repair__problems {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 56px;
+}
+@media (max-width: 900px) {
+  .repair__problems {
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+.repair__problems-heading {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 900px) {
+  .repair__problems-heading {
+    font-size: 20px;
+  }
+}
+
+.repair__problems-list {
+  -moz-column-count: 2;
+       column-count: 2;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: #222;
+}
+@media (max-width: 900px) {
+  .repair__problems-list {
+    -moz-column-count: 1;
+         column-count: 1;
+  }
+}
+
+.repair__problems-list-item {
+  padding: 0;
+  margin: 0;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 23px;
+  position: relative;
+  color: #222;
+}
+.repair__problems-list-item::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: currentColor;
+  position: absolute;
+  left: 9px;
+  transform: translateY(-50%);
+  top: 0.8em;
+  border-radius: 50%;
+}
+
+.repair__application {
+  margin-bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+@media (max-width: 900px) {
+  .repair__application {
+    gap: 16px;
+    margin-bottom: 30px;
+  }
+}
+
+.repair__application-heading {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media (max-width: 900px) {
+  .repair__application-heading {
+    font-size: 20px;
+  }
+}
+
+.repair__application-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=styles.css.map */
